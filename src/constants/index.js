@@ -3,91 +3,58 @@ export const myProjects = [
     id: 1,
     title: "SurveyLand",
     description:
-      "A collaborative web app for creating and sharing surveys with real-time response tracking. Built using Next.js and Tailwind CSS, with full user authentication and clean, responsive UI.Frontend development, UI components, form logic, state management, and team coordination. Tech Stack: Next.js, Tailwind CSS, Zustand, React Hook Form, Vercel",
+      "A collaborative web app for creating and sharing surveys with real-time response tracking. Built using Next.js and Tailwind CSS, with full user authentication and clean, responsive UI. Frontend development, UI components, form logic, state management, and team coordination. Tech Stack: Next.js, Tailwind CSS, Zustand, React Hook Form, Vercel",
     href: "https://surveyland.vercel.app",
     logo: "",
     image: "/assets/projects/pro1.png",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "git", path: "/assets/logos/git.svg" },
+      { id: 3, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
     ],
   },
   {
     id: 2,
-    title: "Motkamel E-commerce Platform",
+    title: "UI Kits – Free & Premium Components",
     description:
-      "A comprehensive e-commerce solution with advanced features and mobile-first approach Tech Used: React.js, CSS, JavaScript, Bootstrap, Mateiral MUI",
-    href: "https://www.motkaml.com/home",
+      "A modern, interactive collection of UI components and templates for web applications. The free section is fully available, while the premium section is under development and will offer advanced, customizable components. Features a bilingual interface and mobile-responsive design. Ideal for designers and developers looking for ready-to-use UI solutions.",
+    href: "https://ui-project-theta-khaki.vercel.app/",
     logo: "",
-    image: "/assets/projects/pro2.png",
+    image: "/assets/projects/pro4.png",
     tags: [
-      {
-        id: 1,
-        name: "wordpress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Reactjs", path: "/assets/logos/react.svg" },
     ],
   },
   {
     id: 3,
+    title: "Motkamel E-commerce Platform",
+    description:
+      "A comprehensive e-commerce solution with advanced features and mobile-first approach. Tech Used: React.js, CSS, JavaScript, Bootstrap, Material MUI",
+    href: "https://www.motkaml.com/home",
+    logo: "",
+    image: "/assets/projects/pro2.png",
+    tags: [
+      { id: 1, name: "wordpress", path: "/assets/logos/wordpress.svg" },
+      { id: 2, name: "React", path: "/assets/logos/react.svg" },
+      { id: 3, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+    ],
+  },
+  {
+    id: 4,
     title: "Nike E-commerce",
     description:
-      "A modern, interactive web application built with A specialized e-commerce platform for Nike store, featuring a bilingual interface and mobile-responsive design",
-  
+      "A modern, interactive web application built with a specialized e-commerce platform for Nike store, featuring a bilingual interface and mobile-responsive design",
     href: "https://nike-store-silk-mu.vercel.app/",
     logo: "",
     image: "/assets/projects/pro3.png",
     tags: [
-      {
-        id: 1,
-        name: "Reactjs",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Reactjs", path: "/assets/logos/react.svg" },
+      { id: 2, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+      { id: 3, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
     ],
   },
-
-
-
 ];
-
 export const mySocials = [
   {
     name: "Linkedin",
